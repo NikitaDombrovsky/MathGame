@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F8FF"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Игра окончена!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E74C3C"
+        android:layout_marginBottom="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:padding="30dp"
+        android:layout_marginBottom="40dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/finalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваши очки: 0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#27AE60"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/gameTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Время игры: 0:00"
+            android:textSize="20sp"
+            android:textColor="#2C3E50" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/playAgain"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Играть снова"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Выход"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
