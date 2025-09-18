@@ -60,7 +60,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="15dp"
-
+            android:backgroundTint="@color/green"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -70,7 +70,7 @@
             android:text="Выход"
             android:textSize="18sp"
             android:textStyle="bold"
-
+            android:backgroundTint="#F44336"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>
